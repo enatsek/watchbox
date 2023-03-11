@@ -5,12 +5,12 @@ WatchBox (AKA watchbox) is planned to be a Systemd service for starting at the p
 
 Currently it has 6 types of checks:
 
-IPPing: Checks if an IP address or hostname can be pinged
-IPPort: Checks if an IP address or hostname can be connected through a TCP Port
-Webpage: Checks if a webpage exists
-WebpageContent: Checks if a webpage has a content
-LocalPath: Checks if a path exists
-LocalService: Checks if a systemd service is active
+- IPPing: Checks if an IP address or hostname can be pinged
+- IPPort: Checks if an IP address or hostname can be connected through a TCP Port
+- Webpage: Checks if a webpage exists
+- WebpageContent: Checks if a webpage has a content
+- LocalPath: Checks if a path exists
+- LocalService: Checks if a systemd service is active
 
 Check status results can be collected to systemd journal, text file, and/or sqlite db file.
 
