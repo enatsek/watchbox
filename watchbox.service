@@ -1,0 +1,13 @@
+[Unit]
+Description=WatchBox Automated Check Tool
+Documentation=https://github.com/enatsek/watchbox/
+Wants=network.target
+After=syslog.target network-online.target
+[Service]
+ExecStart=/usr/bin/watchbox.py
+Restart=on-failure
+RestartPreventExitStatus=255
+RestartSec=10
+KillMode=process
+[Install]
+WantedBy=multi-user.target

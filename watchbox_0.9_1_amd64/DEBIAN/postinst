@@ -1,0 +1,2 @@
+systemctl enable watchbox
+systemctl start watchbox
