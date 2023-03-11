@@ -17,3 +17,4 @@ Check status results can be collected to systemd journal, text file, and/or sqli
 Configuration file watchbox.conf is expected to be in /etc directory. It is well documented inside.
 
 Disclaimer: This program is far from being optimized, so it is not adviced to use it on production environments.
+
