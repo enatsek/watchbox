@@ -15,7 +15,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 '''
-Version 0.9.0
+Version 0.9.1
 
 WatchBox (AKA watchbox) is planned to be a Systemd service for starting at the power-up and making periodic checks.
 
