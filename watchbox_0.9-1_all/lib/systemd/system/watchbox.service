@@ -4,7 +4,7 @@ Documentation=https://github.com/enatsek/watchbox/
 Wants=network.target
 After=syslog.target network-online.target
 [Service]
-ExecStart=/usr/bin/watchbox.py
+ExecStart=/usr/bin/watchbox
 Restart=on-failure
 RestartPreventExitStatus=255
 RestartSec=10
