@@ -3,6 +3,7 @@ Version: 0.9-1
 Architecture: amd64
 Maintainer: Exforge <exforge@x386.org>
 Homepage: https://github.com/enatsek/watchbox/
+Depends: python3, python3-systemd
 Description: Automated Service Checking Tool
   WatchBox (AKA watchbox) is planned to be a Systemd service for starting at the power-up and making periodic checks.
   Currently it has 6 types of checks:
